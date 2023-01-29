@@ -37,4 +37,4 @@ frames = [df_0, df_1, df_2]
 
 result = pd.concat(frames)
 
-result.to_csv('daily_sales_data', index=False)
+result.to_csv('daily_sales_data.csv', index=False)
