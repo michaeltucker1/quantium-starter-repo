@@ -23,7 +23,7 @@ df_1 = df_1.drop('price', axis='columns')
 df_1 = df_1.drop('quantity', axis='columns')
 
 #Editing CSV 2
-df_2 = pd.read_csv("data/daily_sales_data_1.csv")
+df_2 = pd.read_csv("data/daily_sales_data_2.csv")
 
 df_2.drop(df_2[df_2['product'] != "pink morsel"].index, inplace = True)
 
