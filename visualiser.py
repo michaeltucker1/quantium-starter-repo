@@ -15,6 +15,7 @@ colors = {
 
 app.layout = html.Div([
     html.H1(
+        id='header',
         children='Sales of Pink Morsel',
         style={
             'textAlign': 'center',
